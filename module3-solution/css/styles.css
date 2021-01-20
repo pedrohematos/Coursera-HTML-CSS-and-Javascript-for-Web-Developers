@@ -1,0 +1,90 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Comic Neue';
+}
+
+/** NAV-BAR **/
+#header-nav {
+	background-color: #999999;
+	border-color: black;
+	border-radius: 0;
+	border: 1;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	/*font-family: 'Lora', serif; */
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar {
+	border: 0px !important;
+}
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: white;
+}
+
+#nav-list li {
+	border-bottom: 1px solid black;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+
+#nav-list a:hover {	
+	background-color: #DDDDDD;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+/** Restaurant name **/
+h1 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	line-height: .75;
+}
+/** END NAV-BAR **/
+
+
+/** MAIN CONTENT **/
+.container .jumbotron {
+	color: black;
+	background-color: white;
+	border-radius: 0;
+	padding: 0px;
+}
+
+.top-title h3 {
+	font-size: 1.4em;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.content-boxes {
+	background-color: #999999;
+}
+/** END MAIN CONTENT **/
